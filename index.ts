@@ -117,12 +117,12 @@ if (age >= 18) {
   console.log(`You are not eliglible to vote`);
 }
 
-/*11. Grading System
+/*Question No 11: Grading System
 Instructions: Assign a grade based on a numerical score.
 
 let score; // Use conditionals to assign and print grades A, B, C, D, or F.*/
 
-let marks_obtained = 17;
+let marks_obtained = 10;
 let total_marks = 100;
 if (marks_obtained / total_marks >= 0.85) {
   console.log(`You have obtained A grade`);
@@ -133,16 +133,16 @@ if (marks_obtained / total_marks >= 0.85) {
   console.log(`You have obtained B grade`);
 } else if (
   marks_obtained / total_marks < 0.7 &&
-  marks_obtained / total_marks >= 0.55
+  marks_obtained / total_marks >= 0.5
 ) {
   console.log(`You have obtained C grade`);
 } else if (
-  marks_obtained / total_marks < 0.55 &&
+  marks_obtained / total_marks < 0.5 &&
   marks_obtained / total_marks >= 0.33
 ) {
   console.log(`You have obtained D grade`);
 } else {
-  console.log(`You have obtained A grade`);
+  console.log(`You have obtained F grade`);
 }
 
 /*12. Max of Three
