@@ -98,7 +98,7 @@ if (age >= 18) {
 else {
     console.log(`You are not eliglible to vote`);
 }
-/*11. Grading System
+/*Question No 11: Grading System
 Instructions: Assign a grade based on a numerical score.
 
 let score; // Use conditionals to assign and print grades A, B, C, D, or F.*/
@@ -125,8 +125,20 @@ else {
 /*12. Max of Three
 Instructions: Find the maximum of three numbers.
 
-let x, y, z; // Determine the largest among these.
-13. Leap Year Checker
+let x, y, z; // Determine the largest among these.*/
+let x4 = 0.5;
+let x5 = 0.16;
+let x6 = 0.77;
+if (x4 > x5 && x4 > x6) {
+    console.log("x4 is greatest");
+}
+else if (x5 > x4 && x5 > x6) {
+    console.log("x5 is greatest");
+}
+else {
+    console.log("x6 is greatest");
+}
+/*13. Leap Year Checker
 Instructions: Check if a given year is a leap year.
 
 let year; // Determine if this is a leap year.
@@ -134,11 +146,21 @@ let year; // Determine if this is a leap year.
 Instructions: Write a program that converts temperature from Fahrenheit to Celsius.
 
 let fahrenheit; // Convert this to Celsius and print the result.
-15. Positive, Negative, or Zero
+/*Question 15: Positive, Negative, or Zero
 Instructions: Check if a number is positive, negative, or zero.
 
-let number; // Determine the sign of this number.
-16. Multiplication Table
+let number; // Determine the sign of this number.*/
+let a3 = -0.5;
+if (a3 == 0) {
+    console.log("a3 is zero");
+}
+else if (a3 > 0) {
+    console.log("a3 is a positive number");
+}
+else {
+    console.log("a3 is a negative number");
+}
+/*16. Multiplication Table
 Instructions: Write a program that prints the multiplication table of a given number up to 10.
 
 let number; // Print the multiplication table for this number up to 10.*/
