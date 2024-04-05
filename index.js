@@ -142,10 +142,18 @@ else {
 Instructions: Check if a given year is a leap year.
 
 let year; // Determine if this is a leap year.
-14. Fahrenheit to Celsius Converter
+
+
+
+
+Question No 14: Fahrenheit to Celsius Converter
 Instructions: Write a program that converts temperature from Fahrenheit to Celsius.
 
-let fahrenheit; // Convert this to Celsius and print the result.
+let fahrenheit; // Convert this to Celsius and print the result.*/
+// °C = (°F - 32) × 5/9
+let temp_F = 98.8;
+let temp_C = ((temp_F - 32) * 5) / 9;
+console.log(`The temp in Celsius is: ${temp_C}`);
 /*Question 15: Positive, Negative, or Zero
 Instructions: Check if a number is positive, negative, or zero.
 
