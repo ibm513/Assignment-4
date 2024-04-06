@@ -166,10 +166,29 @@ Instructions: Check if a given year is a leap year.
 
 let year; // Determine if this is a leap year.
 
+If the year is evenly divisible by 4, go to step 2. Otherwise, go to step 5.
+If the year is evenly divisible by 100, go to step 3. Otherwise, go to step 4.
+If the year is evenly divisible by 400, go to step 4. Otherwise, go to step 5.
+The year is a leap year (it has 366 days).
+The year is not a leap year (it has 365 days).*/
 
+let year = 2000;
 
+if (year % 4 == 0) {
+  if (year % 100 == 0) {
+    if (year % 400 == 0) {
+      console.log(`${year} is a leap year`);
+    } else {
+      console.log(`${year} is not a leap year`);
+    }
+  } else {
+    console.log(`${year} is a leap year`);
+  }
+} else {
+  console.log(`${year} is not a leap year`);
+}
 
-Question No 14: Fahrenheit to Celsius Converter
+/*Question No 14: Fahrenheit to Celsius Converter
 Instructions: Write a program that converts temperature from Fahrenheit to Celsius.
 
 let fahrenheit; // Convert this to Celsius and print the result.*/
@@ -195,7 +214,12 @@ if (a3 == 0) {
   console.log("a3 is a negative number");
 }
 
-/*16. Multiplication Table
+/*Question No 16: Multiplication Table
 Instructions: Write a program that prints the multiplication table of a given number up to 10.
 
 let number; // Print the multiplication table for this number up to 10.*/
+
+let j = 5;
+for (let i = 0; i <= 10; i++) {
+  console.log(`${j} * ${i} =`, j * i);
+}
